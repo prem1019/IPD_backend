@@ -36,8 +36,8 @@ const userSchema = new mongoose.Schema({
     Total: {
         type: Number,
     }
-})   
+})
 
-const User = mongoose.model('Time',userSchema)
+const User = mongoose.model('Time', userSchema)
 
 module.exports = User
